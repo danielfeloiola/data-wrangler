@@ -1,0 +1,45 @@
+{
+  "name": "eu-road-safety",
+  "title": "European Union Road Safety Facts and Figures",
+  "sources": [{
+    "title": "Wikipedia",
+    "path": "https://en.wikipedia.org/wiki/Road_safety_in_Europe"
+  }],
+  "resources": [
+    {
+      "path": "data/data.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "Country",
+            "type": "string"
+          },
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Area",
+            "type": "float"
+          },
+          {
+            "name": "Population density",
+            "type": "integer"
+          },
+          {
+            "name": "Vehicle ownership",
+            "type": "integer"
+          },
+          {
+            "name": "Total Road Deaths",
+            "type": "integer"
+          },
+          {
+            "name": "Road deaths per Million Inhabitants",
+            "type": "integer"
+          }
+        ]
+      }
+    }
+  ]
+}
