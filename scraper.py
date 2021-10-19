@@ -67,7 +67,7 @@ def main():
     
 
     # output to a csv file (index=False to remove the id column)
-    final_df.to_csv('output.csv', index=False)
+    final_df.to_csv('data/data.csv', index=False)
 
     # add a return statement so the df can be retrieved on the extra.py file
     return final_df

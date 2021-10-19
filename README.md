@@ -21,14 +21,14 @@ To run the script that will create the CSV file:
 ```bash
 python scraper.py
 ```
-The script will generate a CSV file called `output.csv` on the root of the repository
+The script will generate a CSV file called `data.csv` on the data folder
 
 To run the extra script (to create the plots)
 ```bash
 python extra.py
 ```
 The script will generate two plots called `img1.png` and `img2.png`.
-You can also crete a HTML report by changing the `profile_report` variable to `True`.
+You can also create a HTML report by changing the `profile_report` variable to `True`.
 
 ## Extras
 
