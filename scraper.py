@@ -4,7 +4,6 @@ import pandas as pd
 from bs4 import BeautifulSoup
 
 
-
 def main():
 
     # wikipedia URL
@@ -61,10 +60,6 @@ def main():
     # and turn them back into an integer
     final_df['GDP per capita'] = final_df['GDP per capita'].astype(int)
     final_df['Population'] = final_df['Population'].astype(int)
-
-    ## DEBUG
-    # print(final_df.dtypes)
-    
 
     # output to a csv file (index=False to remove the id column)
     final_df.to_csv('data/data.csv', index=False)
